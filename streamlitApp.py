@@ -18,6 +18,7 @@ import string
 import matplotlib.pyplot as plt
 import pandas as pd
 
+nltk.download('stopwords')
 REMOTE_DATA = 'twitter_subset.csv'
 
 load_dotenv()
